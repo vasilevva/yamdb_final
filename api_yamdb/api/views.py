@@ -11,17 +11,28 @@ from rest_framework.decorators import action, api_view, permission_classes
 from rest_framework.exceptions import ValidationError
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
+from reviews.models import Category, Genre, Review, Title, User
 
 from api_yamdb.settings import SERVICE_EMAIL
-from reviews.models import Category, Genre, Review, Title, User
+
 from .filters import TitleFilter
-from .permissions import (IsAdmin, IsAdminOrReadOnly,
-                          IsAuthorAdminModeratorOrReadOnly,
-                          IsSuperuser)
-from .serializers import (CategorySerializer, CommentSerializer,
-                          ConfirmationCodeSerializer, GenreSerializer,
-                          ReviewSerializer, SendCodeSerializer,
-                          TitleGetSerializer, TitleSerializer, UserSerializer)
+from .permissions import (
+    IsAdmin,
+    IsAdminOrReadOnly,
+    IsAuthorAdminModeratorOrReadOnly,
+    IsSuperuser,
+)
+from .serializers import (
+    CategorySerializer,
+    CommentSerializer,
+    ConfirmationCodeSerializer,
+    GenreSerializer,
+    ReviewSerializer,
+    SendCodeSerializer,
+    TitleGetSerializer,
+    TitleSerializer,
+    UserSerializer,
+)
 
 
 @api_view(["POST"])
