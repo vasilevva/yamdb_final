@@ -36,7 +36,7 @@ REST API проект для сервиса YaMDb — сбор отзывов о
 - Соберите статику:  
 ```python manage.py collectstatic --no-input```
 
-Деплой на сервере при пуше в ветку *master*.
+Загрузка на сервер при пуше в ветку *master*.
 ### Заполнение файла ENV
 ```
 SECRET_KEY = ""
