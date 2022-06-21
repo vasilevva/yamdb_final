@@ -1,4 +1,4 @@
-![Status workflow](https://github.com/vasilevva/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
+![Status workflow](https://github.com/vasilevva/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 # Api_yamdb
 REST API проект для сервиса YaMDb — сбор отзывов о различных произведений .
@@ -19,7 +19,7 @@ REST API проект для сервиса YaMDb — сбор отзывов о
 
 При первом запуске на сервере необходимо проделать следующее:
 - Установите docker. Инструкция по установке есть 
-в [официальной документации Docker](https://docs.docker.com/engine/install/ubuntu/).
+в [официальной документации Docker](https://docs.docker.com).
 - Копировать папку *nginx* и файл *docker-compose.yaml* на сервер в домашнюю директорию.
 - В домашней директории создайте файл *.env*, в котором укажите переменные окружения.
   Необходимые переменные указаны в файле *.env.example*.
