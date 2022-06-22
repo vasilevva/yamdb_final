@@ -45,8 +45,6 @@ POSTGRES_PASSWORD=postgres
 DB_HOST=db
 DB_PORT=5432
 ```
-### После заупуска в dev-режиме документация доступна по адресу:
-[Документация Api_yamdb](http://127.0.0.1:8000/redoc/)
 
 ### Автор
 Vladimir Vasilev
@@ -57,4 +55,4 @@ MIT
 Free Softw
 
 ### DEMO
-Демонстрационный проект развернут по адресу http:\\tisch.hopto.org
+Демонстрационный проект развернут по адресу http://tisch.hopto.org/
