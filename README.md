@@ -26,9 +26,9 @@ REST API проект для сервиса YaMDb — сбор отзывов о
 - Далее на сервере перейдите в контейнер web:   
 ```sudo docker-compose exec web bash```
 - Запустите миграции:  
-```python manage.py migrate --noinput```
+```python3 manage.py migrate --noinput```
 - Загрузите данные в базу данных:  
-```python manage.py loaddata fixtures.json```
+```python3 manage.py loaddata fixtures.json```
 - Создайте пользователя:  
 ```python manage.py createsuperuser```
 - Соберите статику:  
