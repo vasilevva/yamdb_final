@@ -27,14 +27,12 @@ REST API проект для сервиса YaMDb — сбор отзывов о
 ```sudo docker-compose exec web bash```
 - Запустите миграции:  
 ```python3 manage.py migrate --noinput```
-- Загрузите данные в базу данных:  
-```python3 manage.py loaddata fixtures.json```
 - Создайте пользователя:  
 ```python manage.py createsuperuser```
 - Соберите статику:  
 ```python manage.py collectstatic --no-input```
 
-Загрузка на сервер при пуше в ветку *master*.
+Загрузка на сервер осуществляется при пуше в ветку *master*.
 ### Заполнение файла ENV
 ```
 SECRET_KEY = ""
