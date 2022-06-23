@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: ${{ secrets.DOCKER_USERNAME }}/apiyamdb:latest
+    image: vasilevvladv22/apiyamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
